@@ -58,9 +58,11 @@
 ![direct3.png](https://s2.loli.net/2024/08/30/na7s1XMAxzqlLWO.png)
 ![direct4.png](https://s2.loli.net/2024/08/30/dusN9Cb5g72nQO4.png)
 ![direct5.png](https://s2.loli.net/2024/08/30/fKVWCHBangYqiJ2.png)
-
 **成功**
 ![success.png](https://s2.loli.net/2024/08/30/VQOzt4vT3mhRekY.png)
+
+5. Q: 百度网盘为什么不走代理的流量？  
+   A：点开设置-网络与Internet-代理-手动代理设置-编辑，将代理地址和端口号复制，然后在百度网盘-传输设置-代理设置-http代理-127.0.0.1-你的端口号。  
 
 ## 暂未解决的问题
 
