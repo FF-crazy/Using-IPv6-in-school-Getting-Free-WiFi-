@@ -17,14 +17,16 @@
 
 * [一个提供VPS服务的平台](https://my.vultr.com/)
 * [一个能充当机场的软件](https://github.com/2dust/v2rayN/releases)
+* [实现全局流量代理](https://short.jixing.one/Yg65Ok)
 * [操作用软件](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
-* 大约50min的时间
+* 大约50 + 20 min的时间
 
 ## 具体步骤
 
 1. 有很多云服务平台都提供VPS服务，为了实现科学上网我们选择国外的平台，一个是[Google](https://cloud.google.com/)的，送300刀乐的免费额度，但是需要visa借记卡，鉴于国内大学生基本都没资格拿到卡，所以我们选择[Vultr](https://my.vultr.com/)，一是支持支付宝付款，二是便宜，宿舍六个人合租均下来每个人一个月就三块，非常划算。三是支持90天内退款，就算不成功也只有时间成本。
 2. 按以下步骤进行配置，[链接](https://www.jixing.one/vps/get-a-vps/)。
-3. 注：不要按网站中的链接下载V2rayN，否则可能会在接下来以下步骤出现问题，请按我提供的链接下载。
+3. 注：不要按网站中的链接下载V2rayN，否则可能会在接下来以下步骤出现问题，请按我提供的链接下载。  
+4. 由于v2r协议问题，要想实现完全的流量代理，（一些软件如网盘类，原神，QQ等软件默认不走代理），请下载以上所有软件，并按[链接](https://blackwolfsec.cc/2016/09/19/Proxifier_Shadowshocks/)配置，并将v2r系统代理改为“清除系统代理”。如果您发现您的流量都被pro接管，证明您已成功。**这是一个结束所有代理的代理。**  
 
 ## 可能存在的问题以及解决方案
 
@@ -60,9 +62,6 @@
 ![direct5.png](https://s2.loli.net/2024/08/30/fKVWCHBangYqiJ2.png)
 **成功**
 ![success.png](https://s2.loli.net/2024/08/30/VQOzt4vT3mhRekY.png)
-
-5. Q: 百度网盘为什么不走代理的流量？  
-   A：点开设置-网络与Internet-代理-手动代理设置-编辑，将代理地址和端口号复制，然后在百度网盘-传输设置-代理设置-http代理-127.0.0.1-你的端口号。  
 
 ## 暂未解决的问题
 
